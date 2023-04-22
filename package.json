@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "Shopping list exercise for Express and routes",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Relic-Southpaw/express-shopping-list.git"
+  },
+  "author": "Relic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Relic-Southpaw/express-shopping-list/issues"
+  },
+  "homepage": "https://github.com/Relic-Southpaw/express-shopping-list#readme"
+}
