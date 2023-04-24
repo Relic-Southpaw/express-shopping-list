@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "description": "Shopping list exercise for Express and routes",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "^6.3.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

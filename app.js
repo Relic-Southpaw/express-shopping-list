@@ -7,7 +7,7 @@ app.use(express.json());
 app.use('/items', routes);
 
 // 404 handler
-app.use(function (req, res) {
+app.use(function (req, res, next) {
     return new ExpressError("Not Found", 404);
 });
 
@@ -24,7 +24,5 @@ app.use(function (err, req, res, next) {
     });
 });
 
-app.listen(3000, function () {
-    console.log("server is listening on port 3000")
-})
 
+module.exports = app
